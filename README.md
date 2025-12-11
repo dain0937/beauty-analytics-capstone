@@ -28,3 +28,17 @@ This project analyzes over **300,000 Ulta Beauty product reviews** to explore cu
 ---
 
 ## Project Structure
+
+├── EDA/
+├── Clustering/
+├── Sentiment/
+├── figures/
+└── README.md
+
+
+---
+
+## Author
+**Dain Lee**  
+GitHub: https://github.com/dain0937
+
