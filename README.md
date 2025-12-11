@@ -26,18 +26,6 @@ This project analyzes over **300,000 Ulta Beauty product reviews** to explore cu
 - Brand sentiment strongly reflects consistency in formulation and user experience
 
 ---
-## Project Structure
-'''
-project/
-├── data/
-├── notebooks/
-├── src/
-├── figures/
-├── reports/
-└── requirements.txt
-'''
-
----
 
 ## Author
 **Dain Lee**  
