@@ -28,17 +28,32 @@ This project analyzes over **300,000 Ulta Beauty product reviews** to explore cu
 ---
 
 ## Project Structure
-
-├── EDA/
-├── Clustering/
-├── Sentiment/
+project/
+├── data/
+│   ├── raw/                     # Original datasets (not included in repo)
+│   └── processed/               # Cleaned datasets used in notebooks
+│
+├── notebooks/
+│   ├── 01_eda.ipynb             # Exploratory data analysis
+│   ├── 02_clustering.ipynb      # K-Means, Hierarchical, K-Medoids
+│   ├── 03_sentiment.ipynb       # BERT sentiment classification
+│   └── 04_brand_analysis.ipynb  # Brand-level insights
+│
+├── src/
+│   ├── preprocessing.py         # Data cleaning and transformation
+│   ├── clustering.py            # Clustering models + PCA utilities
+│   ├── sentiment.py             # NLP pipeline and BERT inference
+│   └── utils.py                 # Shared helper functions
+│
 ├── figures/
+│   ├── eda/                     # Plots from exploratory analysis
+│   ├── clustering/              # PCA, silhouette, dendrograms
+│   └── sentiment/               # Sentiment distribution & brand plots
+│
+├── reports/
+│   └── Capstone_Final_Draft.pdf # Final report
+│
+├── requirements.txt
 └── README.md
 
-
----
-
-## Author
-**Dain Lee**  
-GitHub: https://github.com/dain0937
 
